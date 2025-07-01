@@ -1,0 +1,13 @@
+[Unit]
+Description=Linux Resource Monitoring Service
+After=network.target
+
+[Service]
+User=mathy
+WorkingDirectory=/home/mathy/SREPROJECT/linux_resource_monitor
+ExecStart=/home/mathy/SREPROJECT/linux_resource_monitor/venv/bin/python /home/mathy/SREPROJECT/linux_resource_monitor/main.py
+Restart=always
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target

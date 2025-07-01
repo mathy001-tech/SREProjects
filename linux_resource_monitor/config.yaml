@@ -1,0 +1,14 @@
+# ========================
+# config.yaml
+# ========================
+collection_interval: 10
+cloud_endpoint: "http://localhost:8000/ingest"
+hostname: "my-linux-host"
+thresholds:
+  cpu: 80
+  memory: 80
+  disk: 90
+alert_cooldown: 300
+
+slack_webhook_url: https://hooks.slack.com/services/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
+email_alerts_enabled: false

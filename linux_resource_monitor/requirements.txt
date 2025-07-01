@@ -1,0 +1,12 @@
+# ========================
+# requirements.txt
+# ========================
+psutil
+PyYAML
+fastapi
+uvicorn
+dash
+plotly
+pytest
+requests
+influxdb-client==1.49.0
