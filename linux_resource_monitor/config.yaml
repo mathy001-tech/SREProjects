@@ -12,3 +12,9 @@ alert_cooldown: 300
 
 slack_webhook_url: https://hooks.slack.com/services/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
 email_alerts_enabled: false
+
+influx:
+  url: "http://localhost:8086"
+  token: "eYVBC4hi53MV8oqcXohMVLQhwM_Sikt9VY1bnt4rlObU0dYPm0zqYQZS1XWit6AKGEzq4sX2yyX3v9fLJB6gew=="
+  org: "ABC"
+  bucket: "AlertsMonitoring"
